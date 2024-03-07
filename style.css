@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins", "Pacifico"; 
+  font-size: 14px; 
+  margin: 0;
+  padding: 0;
+  background-color: rgba(195, 213, 252, 0.9); 
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.text-right {
+  text-align: right;
+  margin-right: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 300px; 
+}
+
+h2 {
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  letter-spacing: 1.3px;
+}
+
+ul ol {
+  margin-left: 0;
+  padding: 0 0 20px 20px;
+  line-height: 1.3;
+  text-align: justify;
+  margin-bottom: 10px;
+  font-weight: normal; 
+}
+
+p {
+  letter-spacing: 0.5px;
+}
+li {
+  margin-bottom: 20px;
+}
+
+.recipe-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe-section-left,
+.recipe-section-right {
+  width: calc(50% - 10px);
+  margin-right: 20px;
+}
+
+hr {
+  border: 1px; 
+  border-top: 1px solid #050000;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .recipe-section {
+    flex-direction: column;
+  }
+
+  .recipe-section-left,
+  .recipe-section-right {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
